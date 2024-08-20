@@ -1,5 +1,5 @@
 import React from 'react';
-import BrierFoxLogoPNG from '../../assets/png/BrierFoxLogo.png';
+import BrierFoxLogoPNG from '../../assets/png/CSAD.png';
 
 function Home() {
   return (
@@ -8,16 +8,16 @@ function Home() {
         <div className='flex flex-col sm:flex-row items-center mb-8'>
           <img
             src={BrierFoxLogoPNG}
-            alt='BrierFoxForecast Logo'
+            alt='CSAD Logo'
             className='w-24 h-24 sm:w-32 sm:h-32 mb-4 sm:mb-0 sm:mr-6'
           />
           <div className='flex flex-col justify-center h-full text-center sm:text-left'>
             <h1 className='text-3xl sm:text-4xl font-bold text-custom-gray-light mb-2'>
-              BrierFoxForecast (BFF)
+              Center for the Study of American Democracy
             </h1>
             <p className='text-lg text-custom-gray-light'>
               An alpha project powered by SocialPredict's open-source prediction
-              market platform.
+              market platform code named BrierFoxForecast (BFF).
             </p>
           </div>
         </div>
