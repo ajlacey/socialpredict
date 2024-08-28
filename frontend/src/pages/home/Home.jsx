@@ -1,5 +1,5 @@
 import React from 'react';
-import BrierFoxLogoPNG from '../../assets/png/CSAD.png';
+import BrierFoxLogoPNG from '../../assets/png/CSADLogo.png';
 
 function Home() {
   return (
