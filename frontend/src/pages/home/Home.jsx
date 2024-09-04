@@ -13,7 +13,7 @@ function Home() {
           />
           <div className='flex flex-col justify-center h-full text-center sm:text-left'>
             <h1 className='text-3xl sm:text-4xl font-bold text-custom-gray-light mb-2'>
-              Center for the Study of American Democracy
+              Kenyon College Center for the Study of American Democracy
             </h1>
             <p className='text-lg text-custom-gray-light'>
               An alpha project powered by SocialPredict's open-source prediction
