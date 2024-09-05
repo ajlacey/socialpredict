@@ -62,8 +62,8 @@ function MarketDetailsTable({
         </button>
       </div>
       <div className='mb-4 bg-gray-800 p-4 rounded-lg'>
-        <p
-          className={`text-sm break-words whitespace-pre-wrap ${
+        <a
+          className={`nav-link text-info-blue hover:text-blue-800 ${
             showFullDescription
               ? ''
               : 'sm:max-h-24 h-16 overflow-y-auto sm:overflow-hidden'
@@ -73,9 +73,9 @@ function MarketDetailsTable({
             overflowWrap: 'break-word',
             hyphens: 'auto',
           }}
-        >
+          href={market.description}>
           {market.description}
-        </p>
+        </a>
       </div>
 
       <div className='grid grid-cols-2 sm:grid-cols-4 gap-2 text-center mb-4'>
